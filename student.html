@@ -1,0 +1,267 @@
+<!-- 
+Responsive HTML Table With Pure CSS - Web Design/UI Design
+
+Code written by:
+👨🏻‍⚕️ Coding Design (Jeet Saru)
+
+> You can do whatever you want with the code. However if you love my content, you can **SUBSCRIBED** my YouTube Channel.
+
+🌎link: www.youtube.com/codingdesign 
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Students</title>
+     <link rel="stylesheet" type="text/css" href="./css/student.css">
+     <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+ </head>
+ 
+ <body>
+    
+
+    <div class="side-bar">
+
+        <div id="close-btn">
+            <i class="fas fa-times"></i>
+         </div>
+      
+         <div class="profile">
+            <img src="images/Anh3.jpg" class="image" alt="">
+            <h3 class="name">Vo Van Thanh Binh</h3>
+            <p class="role">Student</p>
+            <a href="profile.html" class="btn">View profile</a>
+         </div>
+      
+         <nav class="navbar">
+            <a href="about.html"><i class="fas fa-home"></i><span>Home</span></a>
+            <!-- <a href="about.html"><i class="fas fa-question"></i><span>About</span></a> -->
+            <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+            <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
+            <!-- <a href="contact.html"><i class="fas fa-headset"></i><span>Contact us</span></a> -->
+            <a href="student.html"><i class="fa-solid fa-user-graduate"></i><span>Students</span></a>
+         </nav>
+     
+     </div>
+     <main class="table" id="customers_table">
+        <header class="header">
+            <section class="flex">
+         
+               <a href="home.html" class="logo">BTEC FPT EDUCATION</a>
+         
+               <!-- <form action="search.html" method="post" class="search-form">
+                  <input type="text" name="search_box" required placeholder="Search courses..." maxlength="100">
+                  <button type="submit" class="fas fa-search"></button>
+               </form> -->
+         
+               <div class="icons">
+                  <div id="menu-btn" class="fas fa-bars"></div>
+                  <div id="search-btn" class="fas fa-search"></div>
+                  <div id="user-btn" class="fas fa-user"></div>
+                  <div id="toggle-btn" class="fas fa-sun"></div>
+               </div>
+         
+               <div class="profile">
+                  <img src="images/pic-1.jpg" class="image" alt="">
+                  <h3 class="name">Vo Van Thanh Binh</h3>
+                  <p class="role">Student</p>
+                  <a href="profile.html" class="btn">view profile</a>
+                  <div class="flex-btn">
+                     <a href="login.html" class="option-btn">login</a>
+                     <a href="register.html" class="option-btn">register</a>
+                  </div>
+               </div>
+         
+            </section>
+         
+         </header>   
+         <section class="table__header">
+             <h1>Student List</h1>
+             <div class="input-group">
+                 <input type="search" placeholder="Search Data...">
+                 <img src="images/search.png" alt="">
+             </div>
+             <button> Add New Student</button>
+             <div class="export__file">
+                 <label for="export-file" class="export__file-btn" title="Export File"></label>
+                 <input type="checkbox" id="export-file">
+                 <div class="export__file-options">
+                     <label>Export As &nbsp; &#10140;</label>
+                     <label for="export-file" id="toPDF">PDF <img src="images/pdf.png" alt=""></label>
+                     <label for="export-file" id="toJSON">JSON <img src="images/json.png" alt=""></label>
+                     <label for="export-file" id="toCSV">CSV <img src="images/csv.png" alt=""></label>
+                     <label for="export-file" id="toEXCEL">EXCEL <img src="images/excel.png" alt=""></label>
+                 </div>
+             </div>
+         </section>
+         <section class="table__body">
+             <table>
+                 <thead>
+                     <tr>
+                         <th> Id <span class="icon-arrow">&UpArrow;</span></th>
+                         <th> Full name <span class="icon-arrow">&UpArrow;</span></th>
+                         <th> Hometown <span class="icon-arrow">&UpArrow;</span></th>
+                         <th> Major <span class="icon-arrow">&UpArrow;</span></th>
+                         <th> Sex <span class="icon-arrow">&UpArrow;</span></th>
+                         <th> Status <span class="icon-arrow">&UpArrow;</span></th>
+                         <th> Function <span class="icon-arrow">&UpArrow;</span></th>
+                     </tr>
+                 </thead>
+                 <tbody>
+                     <tr>
+                         <td> BD00283 </td>
+                         <td> Vo Van Thanh Binh</td>
+                         <td> Danang </td>
+                         <td> Information Technology </td>
+                         <td>Male</td>
+                         <td>
+                             <p class="status delivered">Studying</p>
+                         </td>
+                         <td> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i></td>
+                     </tr>
+                     <tr>
+                         <td> BD00266 </td>
+                         <td> Le Ha Canh Thuan </td>
+                         <td> Kontum </td>
+                         <td> Graphic Design </td>
+                         <td>Male</td>
+                         <td>
+                            <p class="status delivered">Studying</p>
+
+                         </td>
+                         <td> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i></td>
+                     </tr>
+                     <tr>
+                         <td> BD00391</td>
+                         <td> Nguyen Minh Thu </td>
+                         <td> Quang Nam </td>
+                         <td> Marketing </td>
+                         <td> Female</td>
+                         <td>
+                            <p class="status delivered">Studying</p>
+                         </td>
+                         <td> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i></td>
+                     </tr>
+                     <tr>
+                         <td> BD00192</td>
+                         <td> Le Tien Quan </td>
+                         <td> Danang </td>
+                         <td> Graphic Design </td>
+                         <td> Male</td>
+                         <td>
+                            <p class="status delivered">Studying</p>
+                         </td>
+                         <td> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i></td>
+                     </tr>
+                     <tr>
+                         <td> BD00666</td>
+                         <td> Nguyen Thien Nhan</td>
+                         <td> Quang Binh </td>
+                         <td> Information Technology </td>
+                         <td> Male </td>
+                         <td>
+                            <p class="status delivered">Studying</p>
+                         </td>
+                         <td> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i></td>
+                     </tr>
+                     <tr>
+                         <td> BD00611</td>
+                         <td> Vo Thi Lan Oanh </td>
+                         <td> Quang Nam </td>
+                         <td> Logistics </td>
+                         <td> Female </td>
+                         <td>
+                            <p class="status delivered">Studying</p>
+                         </td>
+                         <td> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i></td>
+                     </tr>
+                     <tr>
+                         <td> BD00584</td>
+                         <td> Pham Thi Hong</td>
+                         <td> Quang Nam </td>
+                         <td> Marketing </td>
+                         <td> Female</td>
+                         <td>
+                            <p class="status delivered">Studying</p>
+                         </td>
+                         <td> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i></td>
+                     </tr>
+                     <tr>
+                         <td> BD00777</td>
+                         <td> Lu Van Long </td>
+                         <td> Danang </td>
+                         <td> Information Technology </td>
+                         <td> Male</td>
+                         <td>
+                            <p class="status delivered">Studying</p>
+                         </td>
+                         <td> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i></td>
+                     </tr>
+                     <tr>
+                         <td> BD00274</td>
+                         <td> Vo Hoang Thanh </td>
+                         <td> Danang </td>
+                         <td> Graphic Design </td>
+                         <td> Male</td>
+                         <td>
+                            <p class="status delivered">Studying</p>
+                         </td>
+                         <td> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i></td>
+                     </tr>
+                     <tr>
+                         <td> BD00122</td>
+                         <td> Pham Bao Thy </td>
+                         <td> Quang Binh </td>
+                         <td> Graphic Design </td>
+                         <td> Female</td>
+                         <td>
+                            <p class="status delivered">Studying</p>
+                         </td>
+                         <td> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i></td>
+                     </tr>
+                     <tr>
+                         <td> 9</td>
+                         <td> Alson GC </td>
+                         <td> Dhaka </td>
+                         <td> 22 Dec, 2023 </td>
+                         <td>
+                            <p class="status delivered">Studying</p>
+                         </td>
+                         <td> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i></td>
+                     </tr>
+                     <tr>
+                         <td> 9</td>
+                         <td> Alson GC </td>
+                         <td> Dhaka </td>
+                         <td> 22 Dec, 2023 </td>
+                         <td>
+                            <p class="status delivered">Studying</p>
+                         </td>
+                         <td> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i></td>
+                     </tr>
+                     <tr>
+                         <td> 9</td>
+                         <td> Alson GC </td>
+                         <td> Dhaka </td>
+                         <td> 22 Dec, 2023 </td>
+                         <td>
+                            <p class="status delivered">Studying</p>
+                         </td>
+                         <td> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i></td>
+                     </tr>
+                 </tbody>
+             </table>
+         </section>
+     </main>
+     <script src="./js/script.js"></script>
+     <script src="./Responsive-HTML-Table-With-Pure-CSS---Web-Design-UI-Design/script.js"></script>
+ 
+ </body>
+ 
+ </html>
+ 

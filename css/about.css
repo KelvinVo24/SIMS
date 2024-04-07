@@ -1,0 +1,15 @@
+.image{
+    width: 100%;
+}
+
+.about .row .content li{
+    list-style-type: none;
+    padding: 10px 0px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.about .row .content li i{
+    font-size: 20px;
+    margin-right: 10px;
+}
