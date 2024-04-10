@@ -81,12 +81,12 @@ Code written by:
          
          </header>   
          <section class="table__header">
-             <h1>Student List</h1>
+             <h1>Grade Management</h1>
              <div class="input-group">
                  <input type="search" placeholder="Search Data...">
                  <img src="images/search.png" alt="">
              </div>
-             <button> Add New Student</button>
+            <a href="./editStudent.html"><button> Add New Student</button></a> 
              <div class="export__file">
                  <label for="export-file" class="export__file-btn" title="Export File"></label>
                  <input type="checkbox" id="export-file">
@@ -257,8 +257,166 @@ Code written by:
                  </tbody>
              </table>
          </section>
+         <section class="table__body">
+            <table>
+                <thead>
+                    <tr>
+                        <th> Id <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Full name <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> ID Course <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Course <span class="icon-arrow">&UpArrow;</span></th>
+                        <th> Grade <span class="icon-arrow">&UpArrow;</span></th>
+                        <!-- <th> Status <span class="icon-arrow">&UpArrow;</span></th> -->
+                        <th> Function <span class="icon-arrow">&UpArrow;</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> BD00283 </td>
+                        <td> Vo Van Thanh Binh</td>
+                        <td> 4902 </td>
+                        <td> Applied Programming and Design Principles </td>
+                        <!-- <td> 8.0 </td> -->
+                        <td>
+                            <p class="status delivered">8.0</p>
+                        </td>
+                        <td> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i></td>
+                    </tr>
+                    <tr>
+                        <td> BD00266 </td>
+                        <td> Le Ha Canh Thuan </td>
+                        <td> 9020 </td>
+                        <td> Drawing Basic </td>
+                        <!-- <td>Male</td> -->
+                        <td>
+                           <p class="status pending">5.0</p>
+
+                        </td>
+                        <td> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i></td>
+                    </tr>
+                    <tr>
+                        <td> BD00391</td>
+                        <td> Nguyen Minh Thu </td>
+                        <td> 5039 </td>
+                        <td> Business Law </td>
+                        <!-- <td> Female</td> -->
+                        <td>
+                           <p class="status delivered">9.0</p>
+                        </td>
+                        <td> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i></td>
+                    </tr>
+                    <tr>
+                        <td> BD00192</td>
+                        <td> Le Tien Quan </td>
+                        <td> 3542 </td>
+                        <td> Professional Practice </td>
+                        <!-- <td> Male</td> -->
+                        <td>
+                           <p class="status delivered">7.0</p>
+                        </td>
+                        <td> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i></td>
+                    </tr>
+                    <tr>
+                        <td> BD00666</td>
+                        <td> Nguyen Thien Nhan</td>
+                        <td> 7429 </td>
+                        <td> Discrete Math </td>
+                        <!-- <td> Male </td> -->
+                        <td>
+                           <p class="status cancelled">4.0</p>
+                        </td>
+                        <td> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i></td>
+                    </tr>
+                    <tr>
+                        <td> BD00611</td>
+                        <td> Vo Thi Lan Oanh </td>
+                        <td> 5047 </td>
+                        <td> Entrepreniel Ventures </td>
+                        <!-- <td> Female </td> -->
+                        <td>
+                           <p class="status delivered">8.5</p>
+                        </td>
+                        <td> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i></td>
+                    </tr>
+                    <tr>
+                        <td> BD00584</td>
+                        <td> Pham Thi Hong</td>
+                        <td> 5064 </td>
+                        <td> Organization Behavior</td>
+                        <!-- <td> Female</td> -->
+                        <td>
+                           <p class="status delivered">7.5</p>
+                        </td>
+                        <td> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i></td>
+                    </tr>
+                    <tr>
+                        <td> BD00777</td>
+                        <td> Lu Van Long </td>
+                        <td> 7047 </td>
+                        <td> Software Development Life Cycle </td>
+                        <!-- <td> Male</td> -->
+                        <td>
+                           <p class="status pending">5.5</p>
+                        </td>
+                        <td> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i></td>
+                    </tr>
+                    <tr>
+                        <td> BD00274</td>
+                        <td> Vo Hoang Thanh </td>
+                        <td> 3562 </td>
+                        <td> Art Direction </td>
+                        <!-- <td> Male</td> -->
+                        <td>
+                           <p class="status delivered">8.2</p>
+                        </td>
+                        <td> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i></td>
+                    </tr>
+                    <tr>
+                        <td> BD00122</td>
+                        <td> Pham Bao Thy </td>
+                        <td> 3532 </td>
+                        <td> Printmaking </td>
+                        <!-- <td> Female</td> -->
+                        <td>
+                           <p class="status delivered">9.5</p>
+                        </td>
+                        <td> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i></td>
+                    </tr>
+                    <tr>
+                        <td> 9</td>
+                        <td> Alson GC </td>
+                        <td> Dhaka </td>
+                        <td> 22 Dec, 2023 </td>
+                        <td>
+                           <p class="status delivered">Studying</p>
+                        </td>
+                        <td> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i></td>
+                    </tr>
+                    <tr>
+                        <td> 9</td>
+                        <td> Alson GC </td>
+                        <td> Dhaka </td>
+                        <td> 22 Dec, 2023 </td>
+                        <td>
+                           <p class="status delivered">Studying</p>
+                        </td>
+                        <td> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i></td>
+                    </tr>
+                    <tr>
+                        <td> 9</td>
+                        <td> Alson GC </td>
+                        <td> Dhaka </td>
+                        <td> 22 Dec, 2023 </td>
+                        <td>
+                           <p class="status delivered">Studying</p>
+                        </td>
+                        <td> <i class="fa-solid fa-pen-to-square"></i> <i class="fa-solid fa-trash"></i></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
      </main>
-     <script src="./js/script.js"></script>
+     <!-- <script src="./js/script.js"></script> -->
      <script src="./Responsive-HTML-Table-With-Pure-CSS---Web-Design-UI-Design/script.js"></script>
  
  </body>
